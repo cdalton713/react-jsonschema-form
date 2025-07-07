@@ -62,17 +62,16 @@
   "peerDependencies": {
     "@emotion/react": "^11.7.0",
     "@emotion/styled": "^11.6.0",
-    "@mui/icons-material": "^7.0.0",
     "@mui/material": "^7.0.0",
     "@rjsf/core": "^6.0.0-beta",
     "@rjsf/utils": "^6.0.0-beta",
+    "lucide-react": "^0.525.0",
     "react": ">=18"
   },
   "devDependencies": {
     "@emotion/jest": "^11.11.0",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^7.1.0",
     "@mui/material": "^7.1.0",
     "@rjsf/core": "^6.0.0-beta.11",
     "@rjsf/snapshot-tests": "^6.0.0-beta.11",

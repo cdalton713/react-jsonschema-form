@@ -1,4 +1,4 @@
-import ErrorIcon from '@mui/icons-material/Error';
+import ShieldAlert from 'lucide-react';
 import Box from '@mui/material/Box';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
@@ -26,7 +26,7 @@ export default function ErrorList<T = any, S extends StrictRJSFSchema = RJSFSche
             return (
               <ListItem key={i}>
                 <ListItemIcon>
-                  <ErrorIcon color='error' />
+                  <ShieldAlert color='error' />
                 </ListItemIcon>
                 <ListItemText primary={error.stack} />
               </ListItem>

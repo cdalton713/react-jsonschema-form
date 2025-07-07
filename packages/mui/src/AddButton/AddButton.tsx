@@ -1,4 +1,4 @@
-import AddIcon from '@mui/icons-material/Add';
+import { Plus } from "lucide-react";
 import IconButton from '@mui/material/IconButton';
 import { FormContextType, IconButtonProps, RJSFSchema, StrictRJSFSchema, TranslatableString } from '@rjsf/utils';
 
@@ -12,7 +12,7 @@ export default function AddButton<T = any, S extends StrictRJSFSchema = RJSFSche
   const { translateString } = registry;
   return (
     <IconButton title={translateString(TranslatableString.AddItemButton)} {...props} color='primary'>
-      <AddIcon />
+      <Plus size={14} />
     </IconButton>
   );
 }
